@@ -1,0 +1,75 @@
+
+ li{
+font-size: 16px;
+}
+#caroussel{
+width: 100%; height: 89px; background-color:#044C1A;position: relative;
+}
+
+#menu{
+ width: 100%; height: 48px; position: absolute; top: 95px; left: 499px;
+ }
+
+#menu li{display: inline-block;margin-bottom: 50px;
+}
+
+#menu li a{display:block; padding: 0px 10px;font-family: Arial; font-size: 20px;
+color:#000450 ;text-decoration:none;
+}
+#caroussel h1{display: block; position: absolute; top: 20px; right: 100px;
+}
+{
+position: absolute;
+left: 150px;
+}
+#jsn-logo img {
+float: left;
+} 
+
+#header{
+width: 100%; 
+height: 150px; 
+background-color:#044C1A;
+position: relative;
+}
+#header h1{
+display: block; 
+position: absolute; 
+top: 20px; 
+right: 100px;
+}
+#footer {
+    border-top: 1px solid #000;
+    height: 30px;
+}
+#twitter{
+  position: absolute;
+  bottom: 5px;
+  left: 5px; 
+}
+#facebook{
+  position: absolute;
+  bottom: 5px;
+  left: 70px;
+
+}
+#google {
+  position: absolute;
+  bottom: 5px;
+  left: 130px;
+
+}
+#linkedin{
+  position:absolute;
+  bottom:5px;
+  left: 193px;
+  width:10px;
+}
+#titre_bas {
+	position:absolute;
+	bottom: 80px;
+	left: 1150px;
+	width:140px;
+}
+#recherche{
+background-image:

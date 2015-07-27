@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+    <html lang="fr">
+    <head>
+    <meta charset="utf-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style/form.css">
+    <link rel="stylesheet" href="voiture.css">
+    <script src="script.js"></script>
+    </head>
+	<body style="background-color:#74A574">
+	<div id="header">
+	<h1>bienvenue sur la page que j'ai crée</h1>
+
+
+	<nav>	
+
+    		<ul id="menu">
+			<li>
+			<form>
+				<input type="text" placeholder ="google">
+				<input type="submit" name="recherche" value="rechercher"/>		
+			</form>
+			</li>
+		  	<li><a href="index.html">Accueil</a></li>
+     			<li><a href="contact.html">Contact</a></li>
+			<li><a href="historique.html">historique</a></li>  
+     			<li><a href="a propos.html">A propos</a></li>
+			
+		   
+	
+    		</ul>
+		<a href="index.html"><img src="image/index.png"/></a>
+	</div>
+	
+    <form action="traitement.php" method="post">
+    <div>
+
+	
+ 		<p id="civilite"><label>Civilité : </label>
+    			<input type="radio" name="civilite" value="M." />M.
+    			<input type="radio" name="civilite" value="Mlle" />Mlle
+    			<input type="radio" name="civilite" value="Mme" />Mme
+  		</p>
+
+	</div>
+	<div>
+	       		 <label for="nom">Nom :</label>
+	       		 <input type="text" id="nom" name="nom" />
+	    </div>
+	    <div>
+	       		 <label for="prenom">Prénom :</label>
+	       		 <input type="text" id="prenom" name="prenom" />
+	    </div>
+	    <div>
+			<label for="adresse">adresse :</label>
+			<input type="text" id="Adresse" name="adresse" />
+	    </div>
+	    <div>
+               		 <label for="code postale">code postale :</label>
+			 <input type="text" id="Code postale" name="code postale" />
+
+	    </div>
+	    <div>
+			<label type="date de naissance">date de naissance :</label>
+			<input type="text" id="Date de naissance" name="date de naissance" />
+	    </div>
+	    <div>
+			<label for="ville">ville :</label>
+			<input type="text" id="Ville" name="ville" />
+
+	     </div>
+	    <div>
+			<label for="téléphone">téléphone :</label>
+			<input type="text" id="téléphone" name="téléphone" />
+	     
+	     </div>
+	    <div>
+
+   			<p>
+       			<label for="pays"> pays </label><br />
+       			<select name="pays" id="pays" />
+               		<option value="france">France</option>
+           		<option value="espagne">Espagne</option>
+         		<option value="italie">Italie</option>
+           		<option value="royaume-uni">Royaume-Uni</option>
+          		<option value="canada">Canada</option>
+          		<option value="etats-unis">États-Unis</option>
+          		<option value="chine">Chine</option>
+           		<option value="japon">Japon</option>
+
+       </select>
+   </p>
+	
+	    </div>
+	    <div>
+			<label for="age">age :</label>
+			<input type="text" id="age" name="age" />
+
+
+	    </div>
+	    <div>
+
+	        	 <label for="email">email :</label>
+	      		 <input type="email" />
+
+	    </div>
+	    <div>
+	        	<label for="message">Message :</label>
+	        	<textarea id="message"></textarea>
+	    </div>
+	    <div>
+	  <p id="buttons">
+	  		<input type="submit" value="Envoyer" />
+    </div>
+	
+
+
+</form>
+</body>
+<body style="background-color:#BD8D46">
+
+	<div id="caroussel">
+
+
+	<div id="footer">
+
+		<div id="twitter">
+			<a href="https://twitter.com"><img style="width: 50px"; "height:50px"; src="image/twitter.jpeg" /></a>
+		</div>
+
+		<div id="facebook">
+			<a href="https://www.facebook.com"><img style="width: 50px"; src="image/f-logo.jpg" /></a>
+		</div>
+
+		<div id="google">
+			<a href="https://mail.google.com"><img style="width: 50px"; "height:50px"; src="image/gmail.jpg" /></a>
+		</div>
+		<div id="linkedin">
+		<a href="https://www.linkedin.com"><img style="width: 50px"; "height:50px"; src="image/linkedin_logo.jpg" /></a>
+		</div>
+
+
+</script>
+<g:plusone size="tall" href="http://www.lafermeduweb.net/"></g:plusone>
+		<div id="titre_bas">
+    		<h1>militaire.com</h1>	
+		
+	</div>
+
+  </body>
+	
+
+</html>
